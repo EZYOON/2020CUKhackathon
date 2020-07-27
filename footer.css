@@ -1,25 +1,22 @@
 .footer {
 	box-sizing:border-box;
-	width:70%;
+	width:100%;
 	height:100%;
 	float:left;
 	background:white;
 }
 .footerText1 {
 	text-align:center;
-	position:absolute;
-	top:695%;
-	left:50%;
-	transform:translate(-50%,-50%);
+	padding-top: 5em;
 	font-family:"NotoSans Bold";
 	font-weight:850;
 	font-size:70px;
 	color:#FF9C09;
 }
 .footerContact {
-	position:absolute;
-	top:735%;
-	left:82%;
+	float: right;
+	padding-top: 12em;
+	padding-right: 2em;
 	font-family:"Montserrat";
 	font-weight:330;
 	font-size:20px;
