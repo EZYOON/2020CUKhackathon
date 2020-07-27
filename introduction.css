@@ -1,27 +1,21 @@
 .introductionImg {
 	width:800px;
 	height:625px;
-	position:absolute;
-	top:145%;
-	left:78%;
-	transform:translate(-57%,-50%);
+	margin-top: -510px;
+    padding-left: 40em;
 }
 .introductionBar {
 	width:82px;
 	height:8px;
 	background-color:#6C804B;
-	position:absolute;
-	top:137%;
-	left:41%;
-	transform:translate(-425%,-50%);
+	margin-top: 1.8em;
+	margin-left: 7.5em;
 }
 .introductionText1 {
 	margin:0px;
 	text-align:left;
-	position:absolute;
-	top:130%;
-	left:41%;
-	transform:translate(-57%,-50%);
+	padding-top: 5em;
+	padding-left: 2.35em;
 	font-family:"NotoSans Bold";
 	font-weight:600;
 	font-size:50px;
@@ -30,10 +24,8 @@
 .introductionText2 {
 	margin:0px;
 	text-align:left;
-	position:absolute;
-	top:156%;
-	left:41%;
-	transform:translate(-52%,-50%);
+	padding-top: 3em;
+	padding-left: 5.2em;
 	font-family:"Montserrat";
 	font-weight:349;
     font-size:23px;
