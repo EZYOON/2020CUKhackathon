@@ -1,20 +1,21 @@
-.introductionImg {
+.expectedImg {
     position: relative;
     display: block;
-	max-width:28%;
+	max-width:38%;
 	height:auto;
 	float: right;
-	margin-top: -26vw;
-    margin-right: 2.8vw;
+	margin-top: -18vw;
+    margin-right: 3vw;
 }
-.introductionBar {
-	width:4.5vw;
-	height:0.35vw;
-	background-color:#6C804B;
-	margin-top: 1.5vw;
-	margin-left: 4.6vw;
+.expectedCercle{
+	width:8vw;
+    height:8vw;
+    border-radius: 4vw;
+	background-color:#FFBD59;
+	margin-top: -7vw;
+	margin-left: 1.5vw;
 }
-.introductionText1 {
+.expectedText1 {
 	margin:0px;
 	text-align:left;
 	padding-top: 15vw;
@@ -24,10 +25,10 @@
 	font-size:2.8vw;
 	color:#363636;
 }
-.introductionText2 {
+.expectedText2 {
 	margin:0px;
 	text-align:left;
-	padding-top: 2.6vw;
+	padding-top: 3vw;
 	padding-left: 4.5vw;
 	font-family:"Montserrat";
 	font-weight:349;
