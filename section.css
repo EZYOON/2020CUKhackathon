@@ -1,32 +1,41 @@
 html,body {
-	margin:0px;
-	padding:0;
+	margin:0vw;
+	padding:0vw;
 	height:100%;
 }
 .section100 {
-	box-sizing:border-box;
-	max-width:70%;
+	display: flow-root;
+	max-width:100%;
+	height:100%;
+	background:white;
+}
+.section50 {
+	display: flow-root;
+	max-width:100%;
+	height:50%;
+	background:olivedrab;
+}
+.left-aside100 {
+	width:15%;
 	height:100%;
 	float:left;
 	background:white;
 }
-.section50 {
-	box-sizing:border-box;
-	padding:10px;
-	max-width:70%;
-	height:50%;
-	float:left;
-	background:olivedrab;
+.right-aside100 {
+	width:15%;
+	height:100%;
+	float:right;
+	background:white;
 }
-.left-aside {
-	max-width:15%;
-	height:550%;
+.left-aside50 {
+	width:15%;
+	height:450%;
 	float:left;
 	background:white;
 }
-.right-aside {
-	max-width:15%;
-	height:550%;
+.right-aside50 {
+	width:15%;
+	height:450%;
 	float:right;
 	background:white;
 }
