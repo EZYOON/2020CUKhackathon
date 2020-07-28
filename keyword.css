@@ -1,7 +1,7 @@
 .keyword-section1 {
     box-sizing: border-box;
-    padding-top: 2em;
-    padding-left: 12em;
+    padding-top: 3%;
+    padding-left: 12%;
     width: 50%; 
     height: 100%; 
     float: left; 
@@ -9,7 +9,8 @@
 }
 .keyword-section2 {
     box-sizing: border-box;
-    padding-top: 3em; 
+    padding-top: 4%;
+    padding-left: 4%;
     width: 50%; 
     height: 100%; 
     float: left; 
@@ -21,57 +22,65 @@
     height: 50%;
     float: left;
 }
+.keyword-eng{
+    overflow: hidden;
+}
 .safe{
     animation: right-animation 1s;
-    font-size: 55px;
+    font-size: 3.8vw;
     margin-bottom: 0;
     font-weight: 500;
+    font-family:"NotoSans";
 }
 .enjoy{
     animation: left-animation 1s;
     animation-delay: 0.4s;
     animation-fill-mode: backwards;
     overflow: hidden;
-    font-size: 55px;
+    font-size:3.8vw;
     margin :0;
     font-weight: 500;
+    font-family:"NotoSans";
 }
 .infinite{
     animation: right-animation 1s;
     animation-delay: 0.8s;
     animation-fill-mode: backwards;
-    font-size: 55px;
+    font-size: 3.8vw;
     margin :0;
     font-weight: 500;
+    font-family:"NotoSans";
 }
 .text-safe{
     animation: text-animation 1s;
-    font-size: 45px;
+    font-size: 3.2vw;
     margin-bottom: 0;
     font-weight: 100;
+    font-family:"NotoSans";
 }
 .text-enjoy{
     animation: text-animation 1s;
     animation-delay: 0.4s;
     animation-fill-mode: backwards;
-    overflow: hidden;
-    font-size: 45px;
+    font-size: 3.2vw;
     margin :0;
     padding-top: 0.32em;
     font-weight: 100;
+    font-family:"NotoSans";
 }
 .text-infinite{
     animation: text-animation 1s;
     animation-delay: 0.8s;
     animation-fill-mode: backwards;
-    font-size: 45px;
+    font-size: 3.2vw;
     margin :0;
-    padding-top: 0.325em;
+    padding-top: 0.32em;
     font-weight: 100;
+    font-family:"NotoSans";
 }
 @keyframes right-animation{
     from{
-        margin-left:20px;
+        margin-left:0.4em;
         opacity: 0;
     }
     to{ 
@@ -81,7 +90,7 @@
 }
 @keyframes left-animation{
     from{
-        margin-left:-10px;
+        margin-left:-0.4em;
         opacity: 0; 
     }
     to{ 
