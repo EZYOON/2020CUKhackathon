@@ -1,3 +1,9 @@
+.materialSection {
+	display: flow-root;
+	width:100%;
+	height:100%;
+	background:white;
+}
 .materialText{
     position: relative;
     padding-top: 8%;
