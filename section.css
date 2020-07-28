@@ -5,7 +5,7 @@ html,body {
 }
 .section100 {
 	box-sizing:border-box;
-	width:70%;
+	max-width:70%;
 	height:100%;
 	float:left;
 	background:white;
@@ -13,19 +13,19 @@ html,body {
 .section50 {
 	box-sizing:border-box;
 	padding:10px;
-	width:70%;
+	max-width:70%;
 	height:50%;
 	float:left;
 	background:olivedrab;
 }
 .left-aside {
-	width:15%;
+	max-width:15%;
 	height:550%;
 	float:left;
 	background:white;
 }
 .right-aside {
-	width:15%;
+	max-width:15%;
 	height:550%;
 	float:right;
 	background:white;
