@@ -1,21 +1,24 @@
 .introductionImg {
-	width:800px;
-	height:625px;
-	margin-top: -510px;
-    padding-left: 40em;
+    position: relative;
+    display: block;
+	max-width:25%;
+	height:auto;
+	float: right;
+	margin-top: -23vw;
+    margin-right: 3vw;
 }
 .introductionBar {
 	width:82px;
 	height:8px;
 	background-color:#6C804B;
-	margin-top: 1.8em;
-	margin-left: 5.8em;
+	margin-top: 1.8vw;
+	margin-left: 4.6vw;
 }
 .introductionText1 {
 	margin:0px;
 	text-align:left;
-	padding-top: 5em;
-	padding-left: 1.8em;
+	padding-top: 15vw;
+	padding-left: 4.45vw;
 	font-family:"NotoSans Bold";
 	font-weight:600;
 	font-size:2.8vw;
@@ -24,8 +27,8 @@
 .introductionText2 {
 	margin:0px;
 	text-align:left;
-	padding-top: 3em;
-	padding-left: 4em;
+	padding-top: 2.5vw;
+	padding-left: 4.5vw;
 	font-family:"Montserrat";
 	font-weight:349;
     font-size:1.3vw;

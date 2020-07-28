@@ -17,11 +17,18 @@
     margin-right: auto;
 }
 .slider{
-    margin-top: -17em;
+    margin-top: -30em;
 }
 .sliderItem{
-    width: 10vw;
+    width: 12vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.sliderItemText{
+    text-align: center;
+	font-family:"Montserrat";
+	font-weight:349;
+    font-size:1.3vw;
+	color: #363636;
 }
