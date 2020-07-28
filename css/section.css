@@ -2,6 +2,7 @@ html,body {
 	margin:0vw;
 	padding:0vw;
 	height:100%;
+	width: 100%;
 }
 .section100 {
 	display: flow-root;
@@ -43,17 +44,17 @@ html,body {
 	font-family:"Montserrat";
 	font-weight:10;
 	font-style:normal;
-	src:url("font/Montserrat-Regular.woff") format("woff");
+	src:url("../font/Montserrat-Regular.woff") format('woff');
 }
 @font-face {
 	font-family:"Montserrat Bold";
 	font-weight:10;
 	font-style:normal;
-	src:url("font/Montserrat-Bold.woff") format("woff");
+	src:url("../font/Montserrat-Bold.woff") format('woff');
 }
 @font-face {
 	font-family:"NotoSans Bold";
 	font-weight:10;
 	font-style:normal;
-	src: url("font/NotoSans-Bold.ttf") format("ttf");
+	src: url("../font/NotoSans-Bold.ttf") format("ttf");
 }

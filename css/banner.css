@@ -10,24 +10,31 @@
 }
 .bannerText1 {
 	text-align:left;
-    margin-top: -56vw;
+    margin-top: -54vw;
     padding-left: 19vw;
 	font-family:"NotoSans Bold";
 	font-weight:850;
 	font-size:4.3vw;
 	color:white;
+	animation: text-animation 1s;
+	animation-fill-mode: backwards;
 }
 .bannerText2 {
 	text-align:left;
     padding-left: 19vw;
 	font-family:"Montserrat Bold";
 	font-size:4.1vw;
-	color:white
+	color:white;
+	animation: text-animation 1s;
+	animation-fill-mode: backwards;
 }
 .bannerText3 {
 	text-align:left;
     padding-top: 3vw;
     padding-left:19vw;
 	font-size:1.7vw;
-	color: #FFF3DF
+	color: #FFF3DF;
+	animation: longtext-animation 1s;
+	animation-fill-mode: backwards;
+	animation-delay: 0.4s;
 }
