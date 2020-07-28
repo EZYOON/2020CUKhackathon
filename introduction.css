@@ -9,26 +9,26 @@
 	height:8px;
 	background-color:#6C804B;
 	margin-top: 1.8em;
-	margin-left: 7.5em;
+	margin-left: 5.8em;
 }
 .introductionText1 {
 	margin:0px;
 	text-align:left;
 	padding-top: 5em;
-	padding-left: 2.35em;
+	padding-left: 1.8em;
 	font-family:"NotoSans Bold";
 	font-weight:600;
-	font-size:50px;
+	font-size:2.8vw;
 	color:#363636;
 }
 .introductionText2 {
 	margin:0px;
 	text-align:left;
 	padding-top: 3em;
-	padding-left: 5.2em;
+	padding-left: 4em;
 	font-family:"Montserrat";
 	font-weight:349;
-    font-size:23px;
+    font-size:1.3vw;
     line-height: 150%;
 	color: #363636;
 }

@@ -1,0 +1,27 @@
+.materialText{
+    position: relative;
+    padding-top: 16%;
+    margin:0px;
+	text-align:center;
+	font-family:"NotoSans Bold";
+	font-weight:600;
+	font-size:2.8vw;
+	color:#363636;
+}
+.materialImg{
+    display: block;
+    width: 40%;
+    position: relative;
+    padding-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider{
+    margin-top: -17em;
+}
+.sliderItem{
+    width: 10vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
