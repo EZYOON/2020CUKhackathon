@@ -19,14 +19,6 @@
 .slider{
     padding-top: 13vw;
 }
-.sliderItemBackground{
-    max-width: 50%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #FFF7E7;
-}
 .sliderItem{
     width: 8vw;
     display: block;
