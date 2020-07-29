@@ -10,11 +10,11 @@
 }
 .bannerText1 {
 	text-align:left;
-    margin-top: -54vw;
+    margin-top: -55vw;
     padding-left: 19vw;
 	font-family:"NotoSans Bold";
 	font-weight:850;
-	font-size:4.3vw;
+	font-size:4.5vw;
 	color:white;
 	animation: text-animation 1s;
 	animation-fill-mode: backwards;
@@ -23,17 +23,17 @@
 	text-align:left;
     padding-left: 19vw;
 	font-family:"Montserrat Bold";
-	font-size:4.1vw;
+	font-size:4.3vw;
 	color:white;
 	animation: text-animation 1s;
 	animation-fill-mode: backwards;
 }
 .bannerText3 {
 	text-align:left;
-    padding-top: 3vw;
+    padding-top: 4vw;
     padding-left:19vw;
-	font-size:1.7vw;
-	color: #FFF3DF;
+	font-size:2.3vw;
+	color: white;
 	animation: longtext-animation 1s;
 	animation-fill-mode: backwards;
 	animation-delay: 0.4s;
