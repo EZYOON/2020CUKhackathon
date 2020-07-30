@@ -2,39 +2,49 @@
 	display: flow-root;
 	width:100%;
 	height:100%;
-	background:white;
+	background:#ffffff;
 }
 .materialText{
     position: relative;
-    padding-top: 8%;
+    padding-top: 3.5%;
     margin:0px;
 	text-align:center;
 	font-family:"NotoSans Bold";
 	font-weight:600;
 	font-size:2.8vw;
-	color:#363636;
+	color:#000000;
+}
+.meterialSubText{
+    position: relative;
+    padding-top: 2.5vw;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.3vw;
 }
 .materialImg{
     display: block;
-    width: 32%;
+    width: 25%;
     position: relative;
-    margin-top: -24%;
+    margin-top: -21%;
     margin-left: auto;
     margin-right: auto;
 }
 .slider{
-    padding-top: 13vw;
+    padding-top: 10vw;
 }
 .sliderItem{
-    width: 8vw;
+    width: 6.6vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 .sliderItemText{
+    padding-top: 2%;
     text-align: center;
 	font-family:"Montserrat";
-	font-weight:350;
-    font-size:1.3vw;
-	color: #363636;
+	font-weight:600;
+    font-size:1.1vw;
+    color: #363636;
+    
 }
