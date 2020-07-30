@@ -4,6 +4,13 @@
     <title>Dog-king:반려동물을 위한 실내산책</title>
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+	<link rel="stylesheet" href="wow/css/libs/animate.css">
+	<script src="wow/dist/wow.min.js"></script>
+	<script>
+	    new WOW().init();
+	</script>
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    
 </head>
 <link rel="stylesheet" type="text/css" href="css/section.css">
 <link rel="stylesheet" type="text/css" href="css/banner.css">
@@ -33,11 +40,11 @@
     <!-- 소개 -->
     <aside class="left-aside100"></aside>
     <aside class="right-aside100"></aside>
-    <section class="section100">
-        <div class="introductionText1">
+    <section class="section100 wow fadeIn" data-wow-offset="400">
+        <div class="introductionText1 wow fadeIn" data-wow-offset="400" data-wow-delay="0">
             산책하기 어려우시죠 ?
         </div>
-        <p class="introductionText2">
+        <p class="introductionText2 wow fadeInUp" data-wow-offset="400" data-wow-delay="0.5s" data-wow-duration="1.2">
             집에서도 반려동물의 스트레스를 풀어주고 싶다면,<br>
             집에서도 반려동물에게 다양한 경험을 <span style="color: #FF9900">D.I.Y</span> 해주고 싶다면,<br>
             <br>
@@ -53,15 +60,15 @@
         <!-- <img class="keywordImg" src="keyword-background.png"> -->
         <section class="keyword-section1">
             <div class="keyword-eng">
-                <h1 class="safe"> SAFE </h1>
-                <h1 class="enjoy"> ENJOY </h1>
-                <H1 class="infinite"> INFINITE</H1>
+                <h1 class="safe wow fadeInRight" > SAFE </h1>
+                <h1 class="enjoy wow fadeInLeft" data-wow-delay="0.3s"> ENJOY </h1>
+                <H1 class="infinite wow fadeInRight" data-wow-delay="0.6s"> INFINITE</H1>
             </div>
         </section>
         <section class="keyword-section2">
-            <h1 class="text-safe"> 더 안전하게 </h1>
-            <h1 class="text-enjoy"> 집에서도 즐거운 </h1>
-            <H1 class="text-infinite"> 무한한 놀이경험</H1>
+            <h1 class="text-safe wow fadeInDown"> 더 안전하게 </h1>
+            <h1 class="text-enjoy wow fadeInDown" data-wow-delay="0.3s"> 집에서도 즐거운 </h1>
+            <H1 class="text-infinite wow fadeInDown" data-wow-delay="0.6s"> 무한한 놀이경험</H1>
         </section>
     </div>
 
@@ -96,7 +103,10 @@
 
         <!-- 다양한 재료 선택 -->
         <section class="materialSection">
-            <p class="materialText">다양한 재료 선택</p>
+            <div class="materialText">다양한 재료 선택</div>
+            <div class="wow flipInX">
+                <p>애니메이션 개어렵네</p>
+            </div>
             <div class="slider">
                 <div>
                     <div class="sliderItemText">사료</div>
@@ -220,6 +230,18 @@
             });
         });
     </script>
+
+    <!-- wow.js -->
+    <!-- <script src="wow/dist/wow.min.js"></script> -->
+    <!-- <script>
+        new WOW().init();
+    </script> -->
+
+    <!-- Scroll reveal -->
+    <!-- <script>
+        window.sr = new scrollReveal();
+        sr.reveal('#introductionText1');
+    </script> -->
 </body>
 
 </html>
