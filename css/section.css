@@ -17,6 +17,18 @@ html,body {
 	height:50%;
 	background:olivedrab;
 }
+.left-aside150 {
+	width:15%;
+	height:150%;
+	float:left;
+	background:white;
+}
+.right-aside150 {
+	width:15%;
+	height:150%;
+	float:right;
+	background:white;
+}
 .left-aside100 {
 	width:15%;
 	height:100%;
