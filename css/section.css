@@ -4,6 +4,13 @@ html,body {
 	height:100%;
 	width: 100%;
 }
+.section220 {
+	box-sizing: border-box;
+	display: flow-root;
+	width:70%;
+	height:220%;
+	background:white;
+}
 .section100 {
 	display: flow-root;
 	width:70%;
@@ -15,6 +22,18 @@ html,body {
 	width:70%;
 	height:50%;
 	background:olivedrab;
+}
+.left-aside220 {
+	width:15%;
+	height:220%;
+	float:left;
+	background:white;
+}
+.right-aside220 {
+	width:15%;
+	height:220%;
+	float:right;
+	background:white;
 }
 .left-aside100 {
 	width:15%;
