@@ -1,0 +1,123 @@
+.kitTable{
+ 
+	font-family:"Montserrat";
+	font-weight:500;
+    font-size:1vw;
+    line-height: 150%;
+	color: #363636;
+}
+.blockSection{
+ width: 70%;
+ height: 35%;  
+ text-align: center;
+}
+.componentSection{
+    width: 70%;
+    height: 35%;
+}
+.blockImgSection{
+    width: 60%;
+    margin-top: 1.3vw;
+    text-align: center;
+    font-family:"Montserrat";
+	font-weight:700;
+    font-size:1vw;
+    float: left;
+}
+.natureImgSection{
+    width: 60%;
+    margin-top:-4vw;
+    text-align: center;
+    font-family:"Montserrat";
+	font-weight:700;
+    font-size:1vw;
+    float: left;
+}
+
+.kitImg{
+    position: relative;
+    margin-left: 0.5vw;
+    width: 50vw;
+    height: 35vw;
+    border-radius: 15px;
+    background-color: #fff;
+    filter: drop-shadow(2px 2px 3px #bdbdbd);
+}
+.natureImg{
+    width: 25vw;
+    height: 20vw;
+
+}
+.kitMaintext{
+    position: relative;
+    margin-top: 1vw;
+    margin-bottom: 2.5vw;
+    font-family:"NotoSans Bold";
+    font-weight:700;
+    font-size:2.8vw;
+    color:#363636;
+    animation : shorttext-animation 1s;
+}
+.blockMainText{
+    font-family:"NotoSans Bold";
+    text-align: left;
+	font-weight:600;
+    font-size:2vw;
+    margin-left: 3vw;
+    margin-top: 8vw;
+	color:#363636;
+}
+.blockSubText{
+    font-family:"Montserrat";
+    text-align: left;
+	font: weight 400;
+    font-size:1.1vw;
+    margin-left: 3vw;
+    margin-top: 2.8vw;
+    color:#363636;
+    line-height: 140%;
+}
+.natureMainText{
+    font-family:"NotoSans Bold";
+    text-align: left;
+	font-weight:600;
+    font-size:2vw;
+    margin-left: 3vw;
+    margin-top: 13vw;
+	color:#363636;
+}
+.natureSubText{
+    font-family:"Montserrat";
+    text-align: left;
+	font: weight 400;
+    font-size:1.1vw;
+    margin-left: 3vw;
+    margin-top: 2.8vw;
+    color:#363636;
+    line-height: 140%;
+}
+.kitComponent{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.3vw;
+    padding-top: 2.5vw;
+}
+.componentImg{
+    width: 10vw;
+    height: 10vw;
+
+}
+.kitSubtext{
+    font-family:"Montserrat";
+    margin:0px;
+    text-align:left;
+    padding-top: 2.5vw;
+    font-weight:500;
+    font-size:1.3vw;
+    line-height: 150%;
+    color: #363636;
+    animation : longtext-animation 0.7s;
+    animation-delay: 0.3s; 
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;
+}
