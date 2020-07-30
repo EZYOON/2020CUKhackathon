@@ -1,7 +1,7 @@
 .expectedImg {
     position: relative;
     display: block;
-	max-width:38%;
+	max-width:43%;
 	height:auto;
 	float: right;
 	margin-top: -18vw;
@@ -22,13 +22,13 @@
 	padding-left: 4.45vw;
 	font-family:"NotoSans Bold";
 	font-weight:600;
-	font-size:2.8vw;
+	font-size:2vw;
 	color:#363636;
 }
 .expectedText2 {
 	margin:0px;
 	text-align:left;
-	padding-top: 3vw;
+	padding-top: 1vw;
 	padding-left: 4.5vw;
 	font-family:"Montserrat";
 	font-weight:349;
