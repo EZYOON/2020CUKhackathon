@@ -6,45 +6,28 @@
 .footerText1 {
 	box-sizing: border-box;
 	text-align:center;
-	padding-top: 16vw;
+	padding-top: 14vw;
 	font-family:"NotoSans";
 	font-weight:700;
 	font-size:3vw;
 	color:#363636;
-	animation: hide-show 1s;
-	animation-fill-mode: backwards;
 }
 .footerText2 {
 	box-sizing: border-box;
 	text-align:center;
-	padding-top: 6vw;
 	font-family:"NotoSans";
 	font-weight:700;
 	font-size:3vw;
 	color:#363636;
-	animation : left-animation 1s;
-	animation-delay: 0.4s;
-	animation-fill-mode: backwards;
 }
 .footerContact {
 	box-sizing: border-box;
 	float: right;
-	padding-top: 12em;
-	padding-right: 2em;
+	padding-top: 13em;
+	padding-right: 3em;
 	font-family:"Montserrat";
 	font-weight:330;
 	font-size:20px;
+	line-height: 150%;
 	color: #363636;
-	animation: hide-show 0.5s;
-	animation-delay: 0.9s;
-	animation-fill-mode: backwards;
-}
-
-@keyframes hide-show {
-	from{
-		opacity: 0;
-	}
-	to{
-		opacity: 1;
-	}
 }
