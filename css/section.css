@@ -50,23 +50,25 @@ html,body {
     position: relative;
     box-sizing: border-box;
     margin-top: 16vw;
-    padding-top: 1.6vw;
-    padding-left: 23vw;
+    padding-top: 3.4vw;
+    padding-left: 27vw;
     width: 50%; 
     height: 50%;
     float: left; 
-    background-color:rgba(255, 202, 172, 0.5);
+	background-color:rgba(255, 202, 172, 0.5);
+	line-height: 600%;
 }
 .keyword-section2 {
     position: relative;
     box-sizing: border-box;
     margin-top: 16vw;
-    padding-top: 1.85vw;
-    padding-left: 3vw;
+    padding-top: 3.9vw;
+    padding-left: 3.4vw;
     width: 50%; 
     height: 50%; 
     float: left;
-    background-color:rgba(255, 202, 172, 0.5);
+	background-color:rgba(255, 202, 172, 0.5);
+	line-height: 560%;
 }
 .structure-grid{
     display: flow-root;
