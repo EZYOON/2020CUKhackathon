@@ -9,27 +9,6 @@ table{
     animation-delay: 0.7s;
     animation-fill-mode: backwards; 
 }
-.structure-grid{
-    display: flow-root;
-    box-sizing: border-box;
-    max-width: 100%;
-    height: 100%;
-    padding-top: 7vw;
-}
-.structure-section1{
-    box-sizing: border-box;
-    width:50%;
-    height: 100%;
-    float: left;
-    text-align: center;
-    padding-left: 0.7vw;
-}
-.structure-section2{
-    box-sizing: border-box;
-    width: 50%;
-    height: 100%;
-    float: left;
-}
 .structure-img{
     width: 12vw;
     height: 12vw;
@@ -43,7 +22,7 @@ table{
     font-family:"NotoSans Bold";
     font-weight:700;
     font-size:2.8vw;
-    color:#363636;
+    color:#000000;
     animation : shorttext-animation 1s;
 }
 .structure-subtext{
