@@ -1,5 +1,4 @@
 .kitTable{
- 
 	font-family:"Montserrat";
 	font-weight:500;
     font-size:1vw;
@@ -7,9 +6,9 @@
 	color: #363636;
 }
 .blockSection{
- width: 70%;
- height: 35%;  
- text-align: center;
+width: 70%;
+height: 35%; 
+text-align: center;
 }
 .componentSection{
     width: 70%;
@@ -17,7 +16,7 @@
 }
 .blockImgSection{
     width: 60%;
-    margin-top: 1.3vw;
+    margin-top: 10vw;
     text-align: center;
     font-family:"Montserrat";
 	font-weight:700;
@@ -52,11 +51,11 @@
     position: relative;
     margin-top: 1vw;
     margin-bottom: 2.5vw;
+    padding-top: 5%;
     font-family:"NotoSans Bold";
     font-weight:700;
     font-size:2.8vw;
     color:#363636;
-    animation : shorttext-animation 1s;
 }
 .blockMainText{
     font-family:"NotoSans Bold";
@@ -64,7 +63,7 @@
 	font-weight:600;
     font-size:2vw;
     margin-left: 3vw;
-    margin-top: 8vw;
+    margin-top: 16vw;
 	color:#363636;
 }
 .blockSubText{
@@ -83,7 +82,7 @@
 	font-weight:600;
     font-size:2vw;
     margin-left: 3vw;
-    margin-top: 13vw;
+    margin-top: 15vw;
 	color:#363636;
 }
 .natureSubText{
