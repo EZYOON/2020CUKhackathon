@@ -12,15 +12,17 @@
 	font-family:"NotoSans Bold";
 	font-weight:600;
 	font-size:2.8vw;
-	color:#000000;
+	color:#363636;
 }
 .meterialSubText{
     position: relative;
     padding-top: 2.5vw;
     text-align: center;
-    font-family: "Montserrat";
-    font-weight: 400;
-    font-size: 1.3vw;
+	font-family:"Montserrat";
+	font-weight:349;
+    font-size:1.3vw;
+    line-height: 150%;
+	color: #363636;
 }
 .materialImg{
     display: block;
